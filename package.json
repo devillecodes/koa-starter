@@ -1,0 +1,43 @@
+{
+  "name": "koa-starter",
+  "version": "0.1.0",
+  "description": "Simple starter project for koa (http://koajs.com)",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node --optimize_for_size --max_old_space_size=115 --gc_interval=100 .",
+    "develop": "node-dev .",
+    "debug": "node --inspect .",
+    "lint": "eslint app test",
+    "lint-staged": "lint-staged"
+  },
+  "author": "De Ville Weppenaar <admin@devillex.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devillexio/koa-starter"
+  },
+  "dependencies": {
+    "dotenv-safe": "5.0.1",
+    "koa": "2.5.0",
+    "koa-body": "2.5.0",
+    "koa-logger": "3.2.0",
+    "koa-router": "7.4.0",
+    "request": "2.85.0",
+    "request-promise-native": "1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "4.19.0",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
+    "lint-staged": "7.0.0",
+    "node-dev": "3.1.3",
+    "pre-commit": "1.2.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint"
+  },
+  "pre-commit": "lint-staged"
+}
