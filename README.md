@@ -2,6 +2,8 @@
 
 ## Project Status
 
+[![wercker status](https://app.wercker.com/status/40c9df9c6cf0ee135caebbbeb78e8c15/m/master "wercker status")](https://app.wercker.com/project/byKey/40c9df9c6cf0ee135caebbbeb78e8c15)
+
 ## Contributing to the project
 
 Please feel free to submit a PR if you'd like to suggest changes and improvements.
